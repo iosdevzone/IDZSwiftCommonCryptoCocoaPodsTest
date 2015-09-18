@@ -3,7 +3,7 @@ osx_image: xcode7
 
 
 install:
-- pod install
+- pod install --verbose
 
 script:
 - xcodebuild build -scheme IDZSwiftCommonCryptoCocoaPodsTest -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.0' 
