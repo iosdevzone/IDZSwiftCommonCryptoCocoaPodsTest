@@ -1,0 +1,9 @@
+language: objective-c
+osx_image: xcode7
+
+
+install:
+- pod install
+
+script:
+- xcodebuild build -scheme IDZSwiftCommonCryptoCarthageTest -destination 'platform=iOS Simulator,name=iPhone 6,OS=9' 

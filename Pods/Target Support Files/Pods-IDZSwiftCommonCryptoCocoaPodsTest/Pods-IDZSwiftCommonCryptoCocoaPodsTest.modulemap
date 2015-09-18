@@ -1,0 +1,6 @@
+framework module Pods_IDZSwiftCommonCryptoCocoaPodsTest {
+  umbrella header "Pods-IDZSwiftCommonCryptoCocoaPodsTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
