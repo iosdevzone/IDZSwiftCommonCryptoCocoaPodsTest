@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import IDZSwiftCommonCrypto
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        print("Hello, World!".MD5)
         // Override point for customization after application launch.
         return true
     }
