@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7B676A054B760237825B2BFC4920BE1A"
+               BuildableName = "Pods_IDZSwiftCommonCryptoCocoaPodsTest.framework"
+               BlueprintName = "Pods-IDZSwiftCommonCryptoCocoaPodsTest"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "3093E3571BAB895900E83D26"
                BuildableName = "IDZSwiftCommonCryptoCocoaPodsTest.app"
                BlueprintName = "IDZSwiftCommonCryptoCocoaPodsTest"
