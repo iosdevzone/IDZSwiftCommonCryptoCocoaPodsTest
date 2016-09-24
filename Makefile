@@ -7,6 +7,7 @@ build:
 	$(XC) build -scheme IDZSwiftCommonCryptoCocoaPodsTest $(DESTINATION) -workspace IDZSwiftCommonCryptoCocoaPodsTest.xcworkspace
 
 pod_install:
+	pod repo update
 	pod install --verbose
 pod_clean:
 	rm -rf Pods Podfile.lock
