@@ -1,9 +1,9 @@
 language: objective-c
-osx_image: xcode7
+osx_image: xcode7.3
 
 
 install:
-- pod install --verbose
+- make pod_install 
 
 script:
-- xcodebuild build -scheme IDZSwiftCommonCryptoCocoaPodsTest -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.0' -workspace IDZSwiftCommonCryptoCocoaPodsTest.xcworkspace
+- make build
