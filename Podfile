@@ -4,6 +4,6 @@ platform :ios, '9.3'
 use_frameworks!
 
 target 'IDZSwiftCommonCryptoCocoaPodsTest' do
-pod 'IDZSwiftCommonCrypto', '0.8.3'
+pod 'IDZSwiftCommonCrypto', '0.9.0'
 end
 
